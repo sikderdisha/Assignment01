@@ -240,8 +240,14 @@ header{
  }
 .ready-container .r-button{
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
 }
+.r-button .btn img{
+    vertical-align: middle;
+}
+
 .ready-container .r-button .btn{
     padding: 16px;
 }
