@@ -67,6 +67,11 @@ header{
     height: 44px;
     width: 164px;
 }
+.nav-button .btn{
+    height: 30px;
+    width: 200px;
+    border-radius: 1000px;
+}
 /* navbar style end  */
 /* banner section  */
 .banner-heading{
@@ -113,6 +118,7 @@ header{
 .first-div{
     max-width: 1140px;
     margin: 0 auto;
+    background-color: whitesmoke;
 }
 .first-heading{
     padding-top:30px ;
@@ -123,6 +129,8 @@ header{
 }
 .first-div .container{
     padding-top: 44px;
+    padding-left: 120px;
+    padding-right: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -130,11 +138,26 @@ header{
 
 }
 .first-div .container h4{
-    font-size: 24px;
-    font-weight: 600;
     text-align: center;
   
 }
+.container .card{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 0 40px;
+}
+ .container .card img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color:#FF3F33;
+    padding-bottom: 16px;
+    
+ }
 /* section 2   */
 .scnd-container{
     height: 400px;
@@ -180,13 +203,70 @@ header{
     height: 20px;
     width: 20px;   
  }
+
  /* section 3 */
  .ready-container{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
     margin: 0 100px 100px 100px;
     background-color: #F7F6F2;
+    padding: 80px 0;
  }
  .ready-container h2{
-    padding: 50px 40px 0 40px;
+    padding: 0 40px;
     font-size: 40px;
     
  }
+.ready-container .r-button{
+    display: flex;
+    gap: 10px;
+}
+.ready-container .r-button .btn{
+    padding: 16px;
+}
+/* footer  */
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #001931;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    border: 1px solid;
+    padding: 120px;
+}
+.copyright p{
+    color: white;
+    text-align: center;
+    padding: 120px 120px 30px 120px;
+    font-size: 16px;
+}
+.social-part{
+    display: flex;
+    flex-direction: column;
+}
+.links-container{
+    display: flex;
+    gap: 5px;
+}
+.links-container ul{
+    display: flex;
+    gap: 5px;
+}
+.links-container ul li{
+    color: white;
+    list-style: none;
+}
+button:hover{
+    background-color: #328E6E;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 5px 5px 2px green;
+}
+
+
