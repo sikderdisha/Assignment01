@@ -18,6 +18,9 @@ a{
 a:hover{
     cursor: pointer;
     font-weight: bold;
+    border-radius: 10px;
+    background-color: #b2efcb;
+    padding: 10px;
 }
 p{
     line-height:24px ;
@@ -160,6 +163,9 @@ header{
     background-color:#FF3F33;
     padding:5px;
     
+ }
+ .card:hover{
+    background-color: #b2efcb;
  }
  #early-access-btn{
     height: 35px;
