@@ -245,7 +245,6 @@ footer{
     flex-direction: column;
     background-color: #001931;
 }
-
 .footer{
     display: flex;
     justify-content: space-between;
